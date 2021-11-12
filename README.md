@@ -41,10 +41,26 @@ The analysis of the election result shows that:
 ![image](https://user-images.githubusercontent.com/92613639/141419054-c197e30b-947e-4a45-930b-fcba6559f5cd.png)
 
 - The county results were:
-    - Jefferson received 10.5% of the vote and 38,855 number of votes.
-    - Denver received 82.8% of the vote and 306,055 number of votes.
-    - Arapahoe received 6.7% of the vote and 24,801 number of votes.
+    - Jefferson county accounted for 10.5% of the vote and 38,855 number of votes.
+    - Denver county accounted for 82.8% of the vote and 306,055 number of votes.
+    - Arapahoe county accounted for 6.7% of the vote and 24,801 number of votes.
 
 ![image](https://user-images.githubusercontent.com/92613639/141419091-75f28cab-85ac-4d8e-af28-a87c61b98187.png)
 
 - The county with the largest number of votes was Denver.
+
+### Election Audit Summary
+The python script is able to be used in the future for analyzing additional elections results. Assuming the data is structured similarly (same number of columns, containing the same data in the same order from column 0 to column 2) and the result you are seeking is the same, a user would be able to run this code as is on any set of data and be provided with accurate results.
+
+Original Data:
+
+![image](https://user-images.githubusercontent.com/92613639/141419681-6b65c5ab-8a14-44f0-8d14-6b9104b82110.png)
+
+Potential Data:
+
+![image](https://user-images.githubusercontent.com/92613639/141419996-a2989f97-58e3-4fb7-b446-8451a8645631.png)
+
+However, if the data contained in the data file is in a different order, a user can simply adjust which column is being called in the following line of code:
+
+![image](https://user-images.githubusercontent.com/92613639/141420165-770fcd9f-1d90-43a1-bea3-07c1447d322c.png)
+
