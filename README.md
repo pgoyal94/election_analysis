@@ -50,7 +50,9 @@ The analysis of the election result shows that:
 - The county with the largest number of votes was Denver.
 
 ### Election Audit Summary
-The python script is able to be used in the future for analyzing additional elections results. Assuming the data is structured similarly (same number of columns, containing the same data in the same order from column 0 to column 2) and the result you are seeking is the same, a user would be able to run this code as is on any set of data and be provided with accurate results.
+Election Commission - We would like to bring to your attention the versatility of the provided script. 
+
+The python script is able to be used in the future for analyzing additional elections results. Assuming the data is structured similarly (same number of columns, containing the same data in the same order from column 0 to column 2) and the result you are seeking is the same, a user would be able to run this code as is by calling any set of data (.csv) and be provided with accurate results.
 
 Original Data:
 
@@ -60,7 +62,8 @@ Potential Data:
 
 ![image](https://user-images.githubusercontent.com/92613639/141419996-a2989f97-58e3-4fb7-b446-8451a8645631.png)
 
-However, if the data contained in the data file is in a different order, a user can simply adjust which column is being called in the following line of code:
+However, if the data contained in the data file is in a different order, a user can create the same result by simply adjusting which column is called in the following lines of code:
 
 ![image](https://user-images.githubusercontent.com/92613639/141420165-770fcd9f-1d90-43a1-bea3-07c1447d322c.png)
 
+If you are looking to analyze other data points from elections such as voter demographic data, you could adjust the variable names and the column which is being called for that variable, to create appropriate results as we did when analyzing the county results (we mirrored what already existed for the candidate results to create a more robust analysis).
